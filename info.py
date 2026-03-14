@@ -31,15 +31,15 @@ VERIFY = False  # Enable user verification
 FSUB = environ.get("FSUB", True)  # Force Subscribe
 ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
 BATCH_VERIFY = False
-IS_SHORTLINK = False
+IS_SHORTLINK = True
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', False)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
 # 🔗 __Shortlink Configuration__
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshotner.shop')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e7beb3c8f756dfa15d0bec495abc65f58c0dfa95')
 
 # 💾 __Database Configuration__
 DB_URL = environ.get('DATABASE_URI', "")
