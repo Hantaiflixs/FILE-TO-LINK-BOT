@@ -33,7 +33,7 @@ async def channel_receive_handler(bot: Client, broadcast: Message):
         msg = await broadcast.forward(chat_id=BIN_CHANNEL)
         raw_stream = f"{URL}watch/{msg.id}/LuxeFlix.mkv?hash={get_hash(msg)}"
         raw_download = f"{URL}{msg.id}?hash={get_hash(msg)}"
-        raw_file_link = f"https://t.me/{BOT_USERNAME}?start=file_{msg.id}"
+        raw_file_link = f"https://t.me/koreandrama006"
         if IS_SHORTLINK:
             stream = await get_shortlink(raw_stream)
             download = await get_shortlink(raw_download)
