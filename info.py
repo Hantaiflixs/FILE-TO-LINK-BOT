@@ -8,23 +8,23 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
+ADMINS = [int(i) for i in environ.get('ADMINS', '6366880905 7023006442').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003812425228").split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Sourav00876')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'luxestreaming_bot')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/cantarellabots')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/cantarellabots')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/LuxeFlix')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/Luxepremiumrobot')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_download_moviezone/12')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/how_to_download_moviezone/12')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002745204371'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003701320082'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003701320082'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003701320082'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002161994941"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -34,7 +34,7 @@ BATCH_VERIFY = False
 IS_SHORTLINK = False
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
-PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
+PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', False)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
 # 🔗 __Shortlink Configuration__
